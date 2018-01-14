@@ -2,52 +2,354 @@
 <html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <title>Supercamp 9</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--  FAVICON  -->
     
-    
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link rel="icon" href="assets/logo.png" width=16px height=16px>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!--    <link rel="stylesheet" href="css/timeline.css">-->
+    <link rel="stylesheet" href="css/entypo-plus.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+    <noscript>
+      <style media="screen">
+        #preloader{
+          display: none !important;
+        }
+      </style>
+    </noscript>
+    <title>Beasiswa Supercamp 2018</title>
 </head>
 
+<body id="home">
+    <!-- Preloader Screen -->
+    <div id="preloader">
+      <div class="loader"></div>
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
 
-<body>
+    <!-- Navbar -->
+    <nav id="navigation" class="navbar navbar-expand-md">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                Supercamp
+            </a>
+            <div class="collapsed" id="b-menu-wrapper">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item b-menu active  mr-md-2">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item b-menu mr-md-2">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item b-menu mr-md-2">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item b-menu  mr-md-2">
+                        <a class="nav-link" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item b-menu  mr-md-2">
+                        <a class="nav-link" href="#">Sign up</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="navbar-toggler" type="button" id="b-menu-toggler" data-target="#b-menu-wrapper">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container headline">
+                    <h1 class="headtext">SUPERCAMP 9 <br class="d-none d-md-block"><span id="typing-line">LULUS SBMPTN</span></h1>
+                    <p class="subheadline">Ahlinya Masuk ITS dan Fakultas Kedokteran</p>
+                    <a href="#" class="btn btn-grad">GET STARTED</a>
+        </div>
+    </header>
+    
+    
+    <!-- section of about -->
+    <section class="offer">
+        <div class="title-section">About</div>
+        <hr class="bar-section">
+
+        <div class="container my-5">
+            <div class="row d-flex justify-content-center flex-wrap">
+                <div class="col-md-7 col-sm-12 d-flex justify-content-center flex-wrap flex-lg-nowrap align-self-center revealOnScroll"  data-animation="fadeInUp">
+                  <p class="about">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quasi, laboriosam voluptatibus veritatis dignissimos aspernatur, reiciendis tempora sapiente obcaecati ab optio voluptas? Laudantium non sequi iure minima perferendis quaerat saepe.<br><br>
+                      <button type="button" class="btn btn-grad readmore">Read More</button>
+                  </p>
+                  
+                  
+                </div>
+                <div class="col-md-5 col-sm-12 d-flex justify-content-center flex-wrap flex-lg-nowrap  revealOnScroll delay-2"  data-animation="fadeInUp">
+                  <iframe width="300" height="200" src="https://www.youtube.com/embed/olp9KyuK-hc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- section of Service -->
+    <section class="post-section">
+        <div class="title-section">Services</div>
+        <hr class="bar-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 col-lg-3 revealOnScroll" data-animation="fadeInUp">
+                    <div class="services-wrap text-center">
+                        <i class="material-icons service-icon">school</i>
+                        <h5>Bimbingan belajar intensif selama 40 hari</h5>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-12 col-lg-3 revealOnScroll delay-2" data-animation="fadeInUp">
+                    <div class="services-wrap text-center">
+                        <i class="material-icons service-icon">class</i>
+                        <h5>Modul belajar yang sudah dirancang khusus</h5>
+                        
+                    </div>
+                </div>
+                
+                
+                
+                <div class="col-md-3 col-sm-12 col-lg-3 revealOnScroll delay-3" data-animation="fadeInUp">
+                    <div class="services-wrap text-center">
+                        <i class="material-icons service-icon">group</i>
+                        <h5>Mentor yang berpengalaman dalam bidangnya</h5>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-12 col-lg-3 revealOnScroll  delay-4" data-animation="fadeInUp">
+                    <div class="services-wrap text-center">
+                        <i class="material-icons service-icon">airport_shuttle</i>
+                        <h5>Berkunjung ke kampus ITS dan sekitarnya</h5>
+                        
+                    </div>
+                </div>
+                
+            
+            </div>
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-grad">Selengkapnya</a>
+            </div>
+        </div>
+    </section>
+    
+    
+<!--    timeline  -->
+  <section class="cd-horizontal-timeline">
+	<div class="timeline">
+		<div class="events-wrapper">
+			<div class="events">
+				<ol>
+					<li><a href="#0" data-date="16/01/2014" class="selected">16 Jan</a></li>
+					<li><a href="#0" data-date="28/02/2014">28 Feb</a></li>
+					<li><a href="#0" data-date="20/04/2014">20 Mar</a></li>
+					<li><a href="#0" data-date="20/05/2014">20 May</a></li>
+					<li><a href="#0" data-date="09/07/2014">09 Jul</a></li>
+					<li><a href="#0" data-date="30/08/2014">30 Aug</a></li>
+					<li><a href="#0" data-date="15/09/2014">15 Sep</a></li>
+					<li><a href="#0" data-date="01/11/2014">01 Nov</a></li>
+					<li><a href="#0" data-date="10/12/2014">10 Dec</a></li>
+					<li><a href="#0" data-date="19/01/2015">29 Jan</a></li>
+					<li><a href="#0" data-date="03/03/2015">3 Mar</a></li>
+				</ol>
+
+				<span class="filling-line" aria-hidden="true"></span>
+			</div> <!-- .events -->
+		</div> <!-- .events-wrapper -->
+			
+		<ul class="cd-timeline-navigation">
+			<li><a href="#0" class="prev inactive">Prev</a></li>
+			<li><a href="#0" class="next">Next</a></li>
+		</ul> <!-- .cd-timeline-navigation -->
+	</div> 
+	
+	
+	<!-- .timeline -->
+
+	<div class="events-content">
+		<ol>
+			<li class="selected" data-date="16/01/2014">
+				<h4>Horizontal Timeline</h4>
+				<em>January 16th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="28/02/2014">
+				<h4>Event title here</h4>
+				<em>February 28th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="20/04/2014">
+				<h4>Event title here</h4>
+				<em>March 20th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="20/05/2014">
+				<h4>Event title here</h4>
+				<em>May 20th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="09/07/2014">
+				<h4>Event title here</h4>
+				<em>July 9th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="30/08/2014">
+				<h4>Event title here</h4>
+				<em>August 30th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="15/09/2014">
+				<h4>Event title here</h4>
+				<em>September 15th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="01/11/2014">
+				<h4>Event title here</h4>
+				<em>November 1st, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="10/12/2014">
+				<h4>Event title here</h4>
+				<em>December 10th, 2014</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="19/01/2015">
+				<h4>Event title here</h4>
+				<em>January 19th, 2015</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+
+			<li data-date="03/03/2015">
+				<h4>Event title here</h4>
+				<em>March 3rd, 2015</em>
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+				</p>
+			</li>
+		</ol>
+	</div> <!-- .events-content -->
+</section>
    
-   <div class="bg">
-       <div class="row">
-           <div class="col m6 s12 left">
-               
-               <h2 class="underMan center white-text">Coming Soon...</h2>
-               <h5 class="center white-text"><i class="fa fa-wrench white-text center" aria-hidden="true"></i>this site is under maintenance</h5>
-               
-               <div class="sosmed">
-                   <ul class="sosmedul">
-                       <li><a href="https://web.facebook.com/beasiswasupercamp/?fref=ts"><i class="fa fa-facebook-square white-text" aria-hidden="true"></i>Beasiswa Supercamp</a></li>
-                       <li><a href="https:/www.instagram.com"><i class="fa fa-instagram white-text" aria-hidden="true"></i>beasiswasupercamp</a></li>
-                       <li><a href="https:/www.gmail.com"><i class="fa fa-at white-text" aria-hidden="true"></i>beasiswasupercamp@gmail.com</a></li>
-                       
-                   </ul>
-               </div>
-               
-           </div>
-           <div class="col m6 s12 right">
-              <center><img src="img/logo.png" alt="" width="60%" class="logo"></center>
-              
-               <i class="fa fa-quote-left" aria-hidden="true"></i>
-              <p class="center about container">Sebuah beasiswa bimbingan belajar intensif SBMPTN yang diberikan kepada 40 siswa/siswi terbaik Indonesia yang terkendala biaya untuk mempersiapkan diri menghadapi SBMPTN</p>
-              <i class="fa fa-quote-right" aria-hidden="true"></i>
-               
-           </div>
-       </div>
-   </div>
     
     
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!-- section of offer -->
+    <section class="gallery">
+        <div class="title-section">Gallery</div>
+        <hr class="bar-section">
+
+        <div class="text-center mt-5">
+                <a href="#" class="btn btn-grad">More</a>
+            </div>
+    </section>
+    
+    
+    
+
+    
+
+    <!-- section of FAQ -->
+    <section class="post-section">
+        <div class="title-section">FAQ</div>
+        <hr class="bar-section">
+        <div class="container">
+            <div class="row">
+                
+                
+            </div>
+            <div class="text-center mt-5">
+                <a href="#" class="btn btn-grad">Browse More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Supporter -->
+    <section class="support">
+      <div class="container">
+        <h5 align="center" class="mb-5">Support by:</h5>
+        <div class="row">
+          <div class="col-sm-6 col-xs-12 text-center text-md-right pr-3">
+            <a href="http://lazimku.com/" target="_blank"><img src="assets/lazim.png" alt="logoIC" style="width:130px;padding-top:10x;" class="logo-support ml-a revealOnScroll" data-animation="fadeInUp"></a>
+          </div>
+          <div class="col-sm-6 col-xs-12 text-center text-md-left pl-3">
+            <a href="http://nu.or.id/" target="_blank"><img src="assets/NU.png" alt="logoX" style="width:150px;" class="logo-support mr-a revealOnScroll delay-2" data-animation="fadeInUp"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-body d-flex flex-row justify-content-md-between justify-content-sm-center flex-wrap align-item-center align-content-between">
+                <div class="footer-brand d-inline-flex flex-row align-item-center mx-auto ml-md-0">
+                    
+                    <span>SUPERCAMP</span>
+                </div>
+            <span>Alamat Pojok Wates Kediri Jatim/ line:finan.yohni</span>
+                <div class="footer-social d-inline-flex flex-row align-item-center mx-auto mr-lg-0">
+                    <a href="http://facebook.com/beasiswasupercamp" target="_blank"><i class="icon-facebook-with-circle"></i></a>
+                    <a href="http://twitter.com/beasiswasupercamp" target="_blank"><i class="icon-twitter-with-circle"></i></a>
+                    <a href="http://instagram.com/beasiswasupercamp" target="_blank"><i class="icon-instagram-with-circle"></i></a>
+                </div>
+            </div>
+            <div class="footer-copy">
+                <small class="text-muted">&copy; Copyright 2017 Supercamp &bullet; </small>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="back-top"><i class="icon-chevron-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js" charset="utf-8"></script>
+    <script src="js/jsTimeline.js"></script>
+    <script src="js/popper.js" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+    <script src="js/typed.min.js" charset="utf-8"></script>
+    <script src="js/trigger.js" charset="utf-8"></script>
+    <script src="js/borang.js" charset="utf-8"></script>
 </body>
 
 </html>

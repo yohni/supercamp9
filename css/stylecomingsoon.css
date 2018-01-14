@@ -1,0 +1,89 @@
+body,.bg{
+    overflow-y: hidden;
+}
+.fa-wrench{
+    font-size: 22pt;
+    margin: 10px;
+}
+.left{
+    
+    height: 700px;
+    background: url('../img/layer2.png'),url('../img/bgNew.jpg');
+    background-position: bottom left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.underMan{
+    margin-top: 34%;
+    -webkit-animation: blink 5s infinite;
+    animation: blink 5s infinite;
+}
+
+
+.logo{
+    margin-top: 15%;
+}
+.right{
+    padding-top: 300px;
+}
+.fa{
+    margin-right: 5px;
+}
+.sosmed{
+    position: absolute;
+    bottom: -1%;
+}
+
+.sosmedul li{
+    display: inline-block;
+    margin: 12px;
+    
+}
+
+.sosmedul a{
+    color: white;
+}
+
+.about{
+    font-size: 20px;
+    font-weight: 900;
+    
+    color: rgba(10, 0, 82, 1);
+}
+
+.fa-quote-left{
+    color: #128481;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 50px;
+}
+.fa-quote-right{
+    color: #128481;
+    margin-right: 5%;
+    font-size: 50px;
+    position: absolute;
+    right: 1%;
+}
+
+@-webkit-keyframes blink{
+    0% {opacity:1;}
+    25% {opacity:0.8;}
+    50% {opacity:0.1;}
+    25% {opacity:0.7;}
+    100% {opacity:0.8;}
+}
+
+@keyframes blink{
+    0% {opacity:1;}
+    25% {opacity:0.8;}
+    50% {opacity:0.1;}
+    25% {opacity:0.7;}
+    100% {opacity:0.8;}
+}
+
+@media screen and (max-width:1125px){
+    .sosmedul li{
+        display: block;
+    }
+}
